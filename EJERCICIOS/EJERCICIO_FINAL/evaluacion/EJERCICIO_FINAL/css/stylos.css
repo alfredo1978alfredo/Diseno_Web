@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+header {
+    width: 90%;
+    margin: auto;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section {
+    width: 90%;
+    margin: auto;
+    height: 24vh;
+    margin-top: 15px;
+}
+
+footer {
+    width: 90%;
+    margin: auto;
+    height: 10vh;
+    background-color: yellow;
+}
+
+nav img {
+    width: 15%;
+}
+
+nav {
+    display: flex;
+    width: 40%;
+    height: 10vh;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    margin-right: 10px;
+}
+
+.Registro li {
+    border: solid 2px black;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.Registro li:hover {
+    background-color: black;
+    color: white;
+}
+
+.texto {
+    width: 50%;
+    height: 24vh;
+}
+
+.seccion1 {
+    display: flex;
+    justify-content: center;
+    background-color: green;
+
+}
+
+.texto h1 {
+    font-size: 12mm;
+    color: white;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.texto p {
+    font-size: 3mm;
+    color: white;
+    text-align: center;
+}
+
+.imagen2 {
+    width: 50%;
+    height: 24vh;
+    background-image: url(https://d36tnp772eyphs.cloudfront.net/blogs/2/2019/02/alebrijes-en-oaxaca-940x626.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.seccion2 {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+}
+
+.texto3 {
+    width: 50%;
+    height: 24vh;
+}
+
+.texto2 h1 {
+    font-size: 12mm;
+    color: white;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.texto2 p {
+    font-size: 3mm;
+    color: white;
+    text-align: center;
+}
+
+.hastupedido1{
+    border: solid 2px black;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.seccion3 {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+}
+
+.imagen3 {
+    width: 50%;
+    height: 24vh;
+    background: url(../img/alebrije2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.texto3 {
+    width: 50%;
+    height: 24vh;
+}
+
+.texto3 h1 {
+    font-size: 12mm;
+    color: white;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.texto3 p {
+    font-size: 3mm;
+    color: white;
+    text-align: center;
+
+}
+
+footer img{
+    width: 5%;
+
+}
+
